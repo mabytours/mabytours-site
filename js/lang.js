@@ -160,3 +160,7 @@ document.addEventListener("DOMContentLoaded", () => {
   changeBackground(); // inicia com a primeira imagem
   setInterval(changeBackground, 5000); // troca a cada 5 segundos
 });
+
+.hero {
+  transition: background-image 1s ease-in-out;
+}
