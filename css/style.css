@@ -195,6 +195,7 @@ footer {
 
 .hero {
   min-height: 350px;
+  background-color: #111; /* ou branco (#fff), ou algo suave */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
