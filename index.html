@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mabytours - Transporte de Turistas</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/lang.js" defer></script>
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Pré-carregamento da primeira imagem do slide -->
+  <div style="display: none;">
+    <img src="images/hero1.jpg" alt="Pré-carregamento">
+  </div>
+
+
+  <header class="header-bg">
+    <p data-i18n="subtitle">Experiências exclusivas em transporte turístico</p>
+  </header>
+  
+  <nav class="navbar">
+    <div class="social-left">
+      <a href="https://www.facebook.com/profile.php?id=100091838106496" target="_blank" class="social-icon" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank" class="social-icon" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </div>
+  
+    <div class="menu-links">
+      <a href="#hero" data-i18n="menu_about">Sobre</a>
+      <a href="#servicos" data-i18n="menu_services">Serviços</a>
+      <a href="#reserva" data-i18n="menu_booking">Reserva</a>
+      <a href="#Contatos" data-i18n="menu_contact">Contatos</a>
+    </div>
+
+    <div class="language-dropdown">
+      <button class="lang-btn">
+        <span class="lang-icon">🌐</span> <i class="fas fa-chevron-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <button onclick="setLang('pt')" id="btn-pt">PT</button>
+        <button onclick="setLang('es')" id="btn-es">ES</button>
+        <button onclick="setLang('en')" id="btn-en">EN</button>
+      </div>
+  </nav>
+
+  <div class="hero" id="hero">
+    <div class="hero-content">
+      <h2 data-i18n="about_title">Sobre Nós</h2>
+      <h2 data-i18n="hero_title">Viaje com conforto, estilo e segurança</h2>
+      <p data-i18n="about_text">
+        A Mabytours oferece transporte turístico de excelência, com frota moderna e equipe dedicada. Transformamos cada viagem em uma experiência única e memorável.
+        Atuamos em todo o país, com foco na qualidade, segurança e bem-estar dos nossos clientes. Seja para um passeio turístico, evento ou transporte executivo, garantimos um serviço confortável e confiável.
+      </p>
+    </div>
+  </div>
+
+<section id="servicos" class="section dark">
+  <h2 data-i18n="services_title">Nossos Serviços</h2>
+  <ul>
+    <li data-i18n="services_1">Transfers executivos e personalizados</li>
+    <li data-i18n="services_2">Excursões de luxo</li>
+    <li data-i18n="services_3">Serviços para eventos e empresas</li>
+    <li data-i18n="services_4">Tour cultural e gastronômico</li>
+  </ul>
+</section>
+
+
+<section id="reserva" class="section">
+  <h2 data-i18n="booking_title">Reserva Online</h2>
+  <div class="form-submit" style="text-align:center; margin-top: 2rem;">
+    <a href="reserva_com_locais.html" class="button elegant" data-i18n="open_booking_form">Abrir Formulário</a>
+  </div>
+</section>
+
+
+<section id="Contatos" class="section">
+  <h2 data-i18n="contact_title">Contatos</h2>
+  <p><strong>Email:</strong> reservasmabytours@gmail.com</p>
+  <p><strong>Telefone:</strong> (+351) 925 473 495</p>
+  <p><a href="https://wa.me/351925473495" class="button secondary" target="_blank" data-i18n="whatsapp">Fale via WhatsApp</a></p>
+</section>
+
+<footer>
+  <div class="social-icons">
+    <a href="https://facebook.com" target="_blank" aria-label="Facebook">
+      <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/mabytours_/" target="_blank" aria-label="Instagram">
+      <i class="fab fa-instagram"></i>
+    </a>
+  </div>
+  <p>&copy; 2025 Mabytours. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
