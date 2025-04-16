@@ -538,7 +538,7 @@ header p[data-i18n="subtitle"] {
   }
 
   .menu-links.active {
-    display: flex;
+    display: flex; /* Flex para alinhar os itens na coluna */
   }
 
   .hamburger {
