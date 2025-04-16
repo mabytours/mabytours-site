@@ -114,6 +114,13 @@
     const menu = document.querySelector('.menu-links');
     menu.classList.toggle('active');
   }
+  // Fecha o menu quando qualquer link dentro do menu for clicado
+  document.querySelectorAll('.menu-links a').forEach(link => {
+    link.addEventListener('click', () => {
+      const menu = document.querySelector('.menu-links');
+      menu.classList.remove('active');  // Fecha o menu ao clicar no link
+    });
+  });
 </script>
 
 </body>
