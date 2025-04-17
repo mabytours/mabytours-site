@@ -4,11 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Mabytours - Transporte de Turistas</title>
-  <link rel="icon" type="image/png" sizes="16x16"  href="images/mabytours.ico">
-<meta name="msapplication-TileColor" content="#ffffff">
-<meta name="theme-color" content="#ffffff">
-  <meta name="description" content="Descubra os melhores passeios turísticos em Portugal com a Maby Tours. Conforto, segurança e guias especializados. Reserve já!">
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" sizes="180x180"  href="images/mabytours.ico">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
   <script src="js/lang.js" defer></script>
   <!-- Font Awesome CDN -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -41,26 +40,29 @@
   </header>
   
   <nav class="navbar">
+    <div class="nav-left">
       <button class="hamburger" onclick="toggleMenu()">
         <i class="fas fa-bars"></i>
       </button>
-
+    </div>
+  
     <div class="menu-links">     
       <a href="#hero" data-i18n="menu_about">Sobre</a>
       <a href="#servicos" data-i18n="menu_services">Serviços</a>
       <a href="#reserva" data-i18n="menu_booking">Reserva</a>
       <a href="#Contatos" data-i18n="menu_contact">Contatos</a>
     </div>
-
+  
     <div class="language-dropdown">
       <button class="lang-btn">
-        <span class="lang-icon">🌐</span> <i class="fas fa-chevron-down"></i>
+        <span class="lang-icon">🌐</span>
       </button>
       <div class="dropdown-content">
         <button onclick="setLang('pt')" id="btn-pt">PT</button>
         <button onclick="setLang('es')" id="btn-es">ES</button>
         <button onclick="setLang('en')" id="btn-en">EN</button>
       </div>
+    </div>
   </nav>
 
   <div class="hero" id="hero">
@@ -95,8 +97,8 @@
 
 <section id="Contatos" class="section">
   <h2 data-i18n="contact_title">Contatos</h2>
-  <p><strong>Email:</strong> reservasmabytours@gmail.com</p>
-  <p><strong>Telefone:</strong> (+351) 925 473 495</p>
+  <p><i class="fas fa-envelope"></i> <a href="mailto:reservasmabytours@gmail.com">reservasmabytours@gmail.com</a></p>
+  <p><i class="fas fa-phone-alt"></i> <a href="tel:+351925473495">(+351) 925 473 495</a></p>
   <p><a href="https://wa.me/351925473495" class="button secondary" target="_blank" data-i18n="whatsapp">Fale via WhatsApp</a></p>
 </section>
 
